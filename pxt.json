@@ -4,7 +4,8 @@
     "dependencies": {
         "device": "*",
         "corgio": "*",
-        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.1.0"
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.1.0",
+        "controller": "*"
     },
     "files": [
         "main.blocks",
