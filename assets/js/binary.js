@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.47/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.0.0","target":"arcade","targetVersion":"1.12.47","repo":"jonesa6/platfoormer"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.47/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"2.0.0","target":"arcade","targetVersion":"1.12.47","repo":"jonesa6/platfoormer"}
 // total=2358564 new=10.46% cached=84.22% other=5.32%
 (function (ectx) {
 'use strict';
@@ -649,7 +649,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P106499(s) {
+function _main___P106558(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1633,13 +1633,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P106499.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/Timers/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P106499.continuations = [ 60,61,62,63 ]
+_main___P106558.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/Timers/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P106558.continuations = [ 60,61,62,63 ]
 
-function _main___P106499_mk(s) {
+function _main___P106558_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P106499, depth: s.depth + 1,
+        parent: s, fn: _main___P106558, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -76681,5 +76681,5 @@ const music_MelodyPlayer__C79059_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___82375","tile1___82376","tile2___82377","tile3___82378","tile5___82380","tile6___82381","tile7___82382","transparency8___82385","tile8___82383","tile9___82384","tile10___82386","tile11___82387","tile12___82388","tile4___82379","coin___82364","myCorg___82368","statusbar___82365","statmax_amount___82373","textSprite___82367","level___82372","coins___82366","level_check___82369","coin_save___82370","mySprite___82371"])
 
-return _main___P106499
+return _main___P106558
 })
