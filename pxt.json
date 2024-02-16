@@ -5,7 +5,11 @@
         "device": "*",
         "corgio": "*",
         "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.1.0",
-        "controller": "*"
+        "controller": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2"
     },
     "files": [
         "main.blocks",
@@ -13,13 +17,14 @@
         "README.md",
         "assets.json",
         "tilemap.g.jres",
-        "tilemap.g.ts"
+        "tilemap.g.ts",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.46",
+        "target": "1.12.47",
         "targetId": "arcade"
     },
     "supportedTargets": [
